@@ -36,12 +36,12 @@ void printlist(struct Node *head){
         printf("%d->", temp->data);
         temp=temp->next;
     }
-    printf("NULL/n");
+    printf("NULL\n");
 }
 void printreverse(struct Node *head){
     if (head==NULL) return;
     printreverse(head->next);
-    printf("%d->", head->data);
+    printf("->%d", head->data);
 }
 
 int main(){
