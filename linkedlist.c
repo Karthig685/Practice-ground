@@ -43,7 +43,7 @@ void printlist(struct Node *head){
 
 int main(){
     struct Node *head=NULL;
-    head=insertatend(head,10);
+    head=insertatend(head,15);
     head=insertatend(head,20);
     head=insertatbegin(head,30);
     printlist(head);
