@@ -12,6 +12,7 @@ struct Node* createNode(int value){
     if (newNode==NULL){
         printf("Memory Allocation failed... Retry Again\n");
         printf("Function Restarts");
+        main();
         return 0;
     }
     newNode->data=value;
