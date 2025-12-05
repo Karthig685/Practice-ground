@@ -11,6 +11,7 @@ struct Node* createNode(int value){
     struct Node* newNode=(struct Node*)malloc(sizeof(struct Node));
     if (newNode==NULL){
         printf("Memory Allocation failed... Retry Again\n");
+        printf("Function Restarts");
         return 0;
     }
     newNode->data=value;
