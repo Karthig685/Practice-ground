@@ -15,7 +15,7 @@ def format_hours(decimal_hours):
     hours = int(decimal_hours)
     minutes = int(round((decimal_hours - hours) * 60))
 
-    if minutes == 60:  # Fix overflow
+    if minutes == 60:  # Fixoverflow
         hours += 1
         minutes = 0
 
