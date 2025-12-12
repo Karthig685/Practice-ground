@@ -1,5 +1,5 @@
 def parse_hours(timestr):
-    # Convert "HH.MM" to decimal hours
+    # Convert "HH.MM" to decimal hours 
     try:
         parts = timestr.split('.')
         hours = int(parts[0])
@@ -11,7 +11,7 @@ def parse_hours(timestr):
 
 
 def format_hours(decimal_hours):
-    # Convert decimal hours back to "HH:MM"
+    # Convert decimal hours back to "HH:MM" 
     hours = int(decimal_hours)
     minutes = int(round((decimal_hours - hours) * 60))
 
