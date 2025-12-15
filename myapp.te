@@ -28,4 +28,4 @@ allow myapp_t myapp_log_t:file { create write append open };
 # Allow myapp to connect to the network
 allow myapp_t port_t:tcp_socket { name_connect };
 
-allow polaris_cm_rp_t  tempfs:file{ getattr map open read write };
+allow polaris_cm_rp_t  tempfs:file { getattr map open read write };
